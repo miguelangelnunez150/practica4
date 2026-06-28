@@ -68,4 +68,4 @@ Press CTRL+C to quit
 * Estudiante: Miguel Ángel Núñez Cózar
 
 ## 7. Licencia
-GPL-3.0 license
+Proyecto distribuido bajo la licencia MIT License.
