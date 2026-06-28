@@ -28,19 +28,19 @@ Este proyecto implementa el pipeline de captura, validación y escalado de datos
   - Administrador python-pip
 
 
-###Configuración de dependencias en Arch
+### Configuración de dependencias en Arch
 ```bash
 sudo pacman -Syu base-devel curl nlohmann-json python-flask python-matplotlib python-numpy
 ```
 
-###Proceso de compilación del binario
+### Proceso de compilación del binario
 ```bash
 g++ main.cpp procesador.cpp -o cliente -lcurl
 ```
 
 ---
 
-##4. Lanzamiento del sistema
+## 4. Lanzamiento del sistema
 ```bash
 ./servidor.py &
 ./cliente
@@ -48,7 +48,7 @@ g++ main.cpp procesador.cpp -o cliente -lcurl
 
 ---
 
-5. Trazas de salida esperadas
+## 5. Trazas de salida esperadas
    
 * Serving Flask app 'servidor'
 
@@ -64,8 +64,8 @@ Press CTRL+C to quit
 127.0.0.1 - - [11/June/2026 19:11:59] "POST /HTTP/1.1" 200 -
 127.0.0.1 - - [11/June/2026 19:12:00] "POST /HTTP/1.1" 200 -
 
-##6. Créditos y Autoría
+## 6. Créditos y Autoría
 * Estudiante: Miguel Ángel Núñez Cózar
 
-##7. Licencia
+## 7. Licencia
 GPL-3.0 license
