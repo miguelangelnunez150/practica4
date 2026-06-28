@@ -9,15 +9,15 @@ Este proyecto implementa el pipeline de captura, validación y escalado de datos
 ## 2. Estructura del proyecto
 
 ```text
-├── servidor.py              # Script del servidor Python
-├── procesador.cpp           # Funciones de filtrado e interpolación
-├── main.cpp                 # Flujo de ejecución principal
-├── procesador.h             # Prototipos y cabeceras
-├── cliente                  # Ejecutable compilado
-├── imagenes/                # Directorio de volcado de mapas de presión
-├── tactile_captures_50.json # Dataset de origen (50 capturas)
-├── LICENSE                  # Archivo de licencia pública
-└── README.md                # Documentación del repositorio
+servidor.py              # Script del servidor Python
+procesador.cpp           # Funciones de filtrado e interpolación
+main.cpp                 # Flujo de ejecución principal
+procesador.h             # Prototipos y cabeceras
+cliente                  # Ejecutable compilado
+imagenes/                # Directorio de volcado de mapas de presión
+tactile_captures_50.json # Dataset de origen (50 capturas)
+LICENSE                  # Archivo de licencia pública
+README.md                # Documentación del repositorio
 ```
 ---
 
